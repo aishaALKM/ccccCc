@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AF8EFF"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="639dp"
+        android:text="Name:Rania"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="518dp"
+        android:text="Subject:Physics"
+        android:textColor="#1E1D1D"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="155dp"
+        android:layout_height="168dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="548dp"
+        app:srcCompat="@drawable/no5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="476dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="457dp"
+                android:layout_height="142dp"
+                android:background="#FFFFFF"
+                android:text="One-dimensional motion Introduction to physics: One-dimensional motion Displacement, velocity, and time: One-dimensional motion Acceleration: One-dimensional motion "
+                android:textColor="#0F0115"
+                android:textColorHint="#37084A"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="#5766C8"
+                android:text=" Two-dimensional motion"
+                android:textColor="#FFE0E0"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="#FFFFFF"
+                android:text=" Forces and Newton's laws of motion Newton's laws of motion: Forces and Newton's laws of motion Normal force and contact force: Forces and Newton's laws of motion Balanced and unbalanced forces: Forces and Newton's laws of motion "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="#C572E8"
+                android:text="Centripetal force and gravitation"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="#E9B6FF"
+                android:text="Work and energy "
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
