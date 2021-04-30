@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5DA1A3"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="621dp"
+        android:text="Name:Noor"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="515dp"
+        android:text="Subject:اللغة العربية"
+        android:textColor="#1E1D1D"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="128dp"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="577dp"
+        app:srcCompat="@drawable/no6" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="484dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="#FFFFFF"
+                android:text="اعراب الفعل المضارع و الماضي "
+                android:textColor="#0E0C0C"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="#5766C8"
+                android:text="اعراب فعل الامر"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="#8BD5D8"
+                android:text="شعر (عتاب ابن رومي)و مراجعة دروس سابقة"
+                android:textColor="#232121"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="#C572E8"
+                android:text="اعراب المفعول به"
+                android:textColor="#5D0085"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:background="#E9B6FF"
+                android:text="حروف الجر و كيفية معرفتهم بالجمل"
+                android:textColor="#181619"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
